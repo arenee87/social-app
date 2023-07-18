@@ -1,5 +1,5 @@
 import "./sidebar.css";
-import { DynamicFeed, Chat, Collections, VideoCameraFront, LocalActivity } from '@mui/icons-material'
+import { DynamicFeed, Chat, Collections, VideoCameraFront, LocalActivity, LiveTvTwoTone, AutoStories } from '@mui/icons-material'
 
 export default function Sidebar() {
     return (
@@ -25,6 +25,42 @@ export default function Sidebar() {
                     <li className="sidebarListItem">
                         <LocalActivity className="sidebarIcon" />
                         <span className="sidebarListItemText">Local Activities</span>
+                    </li>
+                    <li className="sidebarListItem">
+                        <LiveTvTwoTone className="sidebarIcon" />
+                        <span className="sidebarListItemText">Viewing Party</span>
+                    </li>
+                    <li className="sidebarListItem">
+                        <AutoStories className="sidebarIcon" />
+                        <span className="sidebarListItemText">Book Suggestions</span>
+                    </li>
+                </ul>
+                <button className="sidebarButton">Show More</button>
+                <hr className="sidebarHr" />
+                <ul className="sidebarFriendList">
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="assests/assests/person/1.person.jpeg" alt="" />
+                        <span className="sidebarFriendName">Janelle Doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="assests/assests/person/1.person.jpeg" alt="" />
+                        <span className="sidebarFriendName">Janelle Doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="assests/assests/person/1.person.jpeg" alt="" />
+                        <span className="sidebarFriendName">Janelle Doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="assests/assests/person/1.person.jpeg" alt="" />
+                        <span className="sidebarFriendName">Janelle Doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="assests/assests/person/1.person.jpeg" alt="" />
+                        <span className="sidebarFriendName">Janelle Doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="assests/assests/person/1.person.jpeg" alt="" />
+                        <span className="sidebarFriendName">Janelle Doe</span>
                     </li>
                 </ul>
             </div>
