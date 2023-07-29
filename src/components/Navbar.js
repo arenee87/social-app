@@ -34,7 +34,7 @@ export default function Navbar() {
                         <span className="navbarIconBadge">7</span>
                     </div>
                 </div>
-                <img src="assests/assests/person/2.person.jpeg" alt="" className="navbarImg" />
+                <img src="assets/assets/person/2.person.jpeg" alt="" className="navbarImg" />
             </div>
         </div>
     )
