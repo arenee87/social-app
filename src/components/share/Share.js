@@ -31,6 +31,7 @@ export default function Share() {
                         <span className="shareOptionText">Feelings</span>
                     </div>
                 </div>
+                <button className="shareButton">Share Thoughts</button>
             </div>
         </div>
     </div>
