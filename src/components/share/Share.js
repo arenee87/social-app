@@ -1,6 +1,6 @@
 import React from 'react'
 import "./share.css"
-import { PermMedia } from '@mui/icons-material'
+import { CameraAlt, Label, Room, EmojiEmotions } from '@mui/icons-material'
 
 export default function Share() {
   return (
@@ -15,9 +15,20 @@ export default function Share() {
             <div className="shareBottom">
                 <div className="shareOptions">
                     <div className="shareOption">
-                        <PermMedia className="shareIcon"/>
-                        
+                        <CameraAlt htmlColor="blue" className="shareIcon"/>
                         <span className="shareOptionText">Photo or Video</span>
+                    </div>
+                    <div className="shareOption">
+                        <Label htmlColor="red" className="shareIcon"/>
+                        <span className="shareOptionText">Tag</span>
+                    </div>
+                    <div className="shareOption">
+                        <Room htmlColor="green" className="shareIcon"/>
+                        <span className="shareOptionText">Location</span>
+                    </div>
+                    <div className="shareOption">
+                        <EmojiEmotions htmlColor="orange" className="shareIcon"/>
+                        <span className="shareOptionText">Feelings</span>
                     </div>
                 </div>
             </div>
