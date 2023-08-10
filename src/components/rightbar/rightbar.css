@@ -1,3 +1,10 @@
 .rightbar {
     flex: 3.5;
 }
+
+.rightbarAd {
+    width: 80%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+

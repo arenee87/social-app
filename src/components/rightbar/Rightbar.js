@@ -11,8 +11,15 @@ export default function Rightbar() {
             <b>Piper Phelps</b> and <b>3 other friends</b> have a birthday today! 
           </span>
         </div>
-
-        
+        <img className="rightbarAd" src="assets/assets/posts/glittergymnast.png" alt=""/>
+        <h4 className="rightbarTitle">Online Friends</h4>
+        <ul className="rightbarFriendList">
+          <ul className="rightBarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img className="rightbarProfileImg" src="assets/assets/person/5.person.jpeg" alt="" />
+            </div>
+          </ul>
+        </ul>
       </div>
     </div>
   )
