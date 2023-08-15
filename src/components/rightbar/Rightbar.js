@@ -14,10 +14,47 @@ export default function Rightbar() {
         <img className="rightbarAd" src="assets/posts/glittergymnast.png" alt=""/>
         <h4 className="rightbarTitle">Online Friends</h4>
         <ul className="rightbarFriendList">
-          <ul className="rightBarFriend">
+          <ul className="rightbarFriend">
             <div className="rightbarProfileImgContainer">
               <img className="rightbarProfileImg" src="assets/person/5.person.jpeg" alt="" />
+              <span className="rightbarOnline"></span>
             </div>
+            <span className="rightbarUsername">Tia Tender</span>
+          </ul>
+          <ul className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img className="rightbarProfileImg" src="assets/person/5.person.jpeg" alt="" />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">Tia Tender</span>
+          </ul>
+          <ul className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img className="rightbarProfileImg" src="assets/person/5.person.jpeg" alt="" />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">Tia Tender</span>
+          </ul>
+          <ul className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img className="rightbarProfileImg" src="assets/person/5.person.jpeg" alt="" />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">Tia Tender</span>
+          </ul>
+          <ul className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img className="rightbarProfileImg" src="assets/person/5.person.jpeg" alt="" />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">Tia Tender</span>
+          </ul>
+          <ul className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img className="rightbarProfileImg" src="assets/person/5.person.jpeg" alt="" />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">Tia Tender</span>
           </ul>
         </ul>
       </div>
