@@ -23,38 +23,38 @@ export default function Rightbar() {
           </ul>
           <ul className="rightbarFriend">
             <div className="rightbarProfileImgContainer">
-              <img className="rightbarProfileImg" src="assets/person/5.person.jpeg" alt="" />
+              <img className="rightbarProfileImg" src="assets/person/6.person.jpeg" alt="" />
               <span className="rightbarOnline"></span>
             </div>
-            <span className="rightbarUsername">Tia Tender</span>
+            <span className="rightbarUsername">Henry Cho</span>
           </ul>
           <ul className="rightbarFriend">
             <div className="rightbarProfileImgContainer">
-              <img className="rightbarProfileImg" src="assets/person/5.person.jpeg" alt="" />
+              <img className="rightbarProfileImg" src="assets/person/8.person.jpeg" alt="" />
               <span className="rightbarOnline"></span>
             </div>
-            <span className="rightbarUsername">Tia Tender</span>
+            <span className="rightbarUsername">Ben Banner</span>
           </ul>
           <ul className="rightbarFriend">
             <div className="rightbarProfileImgContainer">
-              <img className="rightbarProfileImg" src="assets/person/5.person.jpeg" alt="" />
+              <img className="rightbarProfileImg" src="assets/person/9.person.jpeg" alt="" />
               <span className="rightbarOnline"></span>
             </div>
-            <span className="rightbarUsername">Tia Tender</span>
+            <span className="rightbarUsername">Nancy Nash</span>
           </ul>
           <ul className="rightbarFriend">
             <div className="rightbarProfileImgContainer">
-              <img className="rightbarProfileImg" src="assets/person/5.person.jpeg" alt="" />
+              <img className="rightbarProfileImg" src="assets/person/7.person.jpeg" alt="" />
               <span className="rightbarOnline"></span>
             </div>
-            <span className="rightbarUsername">Tia Tender</span>
+            <span className="rightbarUsername">Laine Faith</span>
           </ul>
           <ul className="rightbarFriend">
             <div className="rightbarProfileImgContainer">
-              <img className="rightbarProfileImg" src="assets/person/5.person.jpeg" alt="" />
+              <img className="rightbarProfileImg" src="assets/person/10.person.jpeg" alt="" />
               <span className="rightbarOnline"></span>
             </div>
-            <span className="rightbarUsername">Tia Tender</span>
+            <span className="rightbarUsername">Kimberly Chase</span>
           </ul>
         </ul>
       </div>
