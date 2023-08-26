@@ -19,7 +19,7 @@ export default function Rightbar() {
               <img className="rightbarProfileImg" src="assets/person/5.person.jpeg" alt="" />
               <span className="rightbarOnline"></span>
             </div>
-            <span className="rightbarUsername">Tia Tender</span>
+            <span className="rightbarUsername">Laine Kim</span>
           </ul>
           <ul className="rightbarFriend">
             <div className="rightbarProfileImgContainer">
@@ -47,7 +47,7 @@ export default function Rightbar() {
               <img className="rightbarProfileImg" src="assets/person/7.person.jpeg" alt="" />
               <span className="rightbarOnline"></span>
             </div>
-            <span className="rightbarUsername">Laine Faith</span>
+            <span className="rightbarUsername">Tia Tender</span>
           </ul>
           <ul className="rightbarFriend">
             <div className="rightbarProfileImgContainer">
