@@ -116,6 +116,34 @@ export default function Post() {
     </div>
 </div>
 
+<div className="post">
+    <div className="postWrapper">
+        <div className="postTop">
+            <div className="postTopLeft">
+                <img className="postProfileImg" src="assets/person/8.person.jpeg" alt=""/>
+                <span className="postUsername">Ben Banner</span>
+                <span className="postDate">57 minutes ago</span>
+            </div>
+            <div className="postTopRight"></div>
+            <ExpandMore/>
+        </div>
+        <div className="postCenter">
+            <span className="postText"> Had a blast today!</span>
+            <img className="postImg" src="assets/posts/4post.jpeg" alt=""/>
+        </div>
+        <div className="postBottom">
+            <div className="postBottomLeft">
+                <ThumbUp htmlColor="turquoise" className="likeIcon"/>
+                <Favorite htmlColor="pink" className="likeIcon"/>
+                <span className="postLikeCounter">19 people like this!</span>
+            </div>
+            <div className="postBottomRight">
+                <div className="postCommentText">6 comments</div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </div>
 )
 
