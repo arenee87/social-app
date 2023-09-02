@@ -2,7 +2,7 @@ export const Users = [
     {
         id: 1,
         profilePic: "assets/person/4.person.jpeg",
-        username: "Laila The Light",
+        username: "Laila Lightbeam",
     },
     {
         id: 2,
@@ -127,7 +127,7 @@ export const OnlineUser = [
   
 ]
 
-export const TopFriend = [
+export const TopFriendList = [
   {
     id: 1,
     topPic: "assets/person/1.person.jpeg",
