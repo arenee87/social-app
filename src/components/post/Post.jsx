@@ -15,7 +15,7 @@ export default function Post({post}) {
                         <span className="postUsername">
                             {Users.filter((u) => u.id === post.userId)[0].username}
                         </span>
-                        <span className="postDate">{post.date}</span>
+                        <span className="postDate">{post.time}</span>
                     </div>
                     <div className="postTopRight"></div>
                     <ExpandMore/>

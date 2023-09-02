@@ -93,35 +93,36 @@ export const Posts = [
   // },
 ]
 
-// export const Online = [
-//   {
-//     id: 6,
-//     onlinePic: "assets/person/5.person.jpeg",
-//     onlineId: 6,
-//     username: "Laine Kim",
-//   },
-  // {
-  //   id: 7,
-  //   onlinePic: ,
-  //   username: ,
-  // },
-  // {
-  //   id: 8,
-  //   onlinePic: ,
-  //   username: ,
-  // },
-  // {
-  //   id: 9,
-  //   onlinePic: ,
-  //   username: ,
-  // },
-  // {
-  //   id: 10,
-  //   onlinePic: ,
-  //   username: ,
-  // },
-  // {
-  //   id: 11,
-  //   onlinePic: ,
-  //   username: ,
-  // },
+export const OnlineUser = [
+  {
+    id: 1,
+    onlinePic: "assets/person/5.person.jpeg",
+    onlineId: 6,
+    username: "Laine Kim",
+  },
+  {
+    id: 2,
+    onlinePic:"assets/person/6.person.jpeg" ,
+    username: "Henry Cho",
+  },
+  {
+    
+    onlinePic: "assets/person/8.person.jpeg",
+    username: "Ben Banner",
+  },
+  {
+    id: 9,
+    onlinePic: "assets/person/9.person.jpeg",
+    username: "Nancy Nash",
+  },
+  {
+    id: 10,
+    onlinePic: "assets/person/7.person.jpeg",
+    username: "Tia Tender",
+  },
+  {
+    id: 11,
+    onlinePic: "assets/person/10.person.jpeg",
+    username: "Kimberly Chase",
+  },
+]

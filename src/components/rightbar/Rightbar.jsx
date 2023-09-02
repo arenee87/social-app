@@ -1,6 +1,6 @@
 import "./rightbar.css";
 import CakeIcon from '@mui/icons-material/Cake';
-import { Users } from "../../dynamicData";
+import { OnlineUser } from "../../dynamicData";
 import Online from "./Online";
 
 
@@ -17,7 +17,7 @@ export default function Rightbar() {
         <img className="rightbarAd" src="assets/posts/glittergymnast.png" alt=""/>
         <h4 className="rightbarTitle">Online Friends</h4>
         <ul className="rightbarFriendList">
-          {Users.map((u) => (
+          {OnlineUser.map((u) => (
             <Online key={u.id} user={u} />
           ))}
          
