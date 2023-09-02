@@ -97,7 +97,6 @@ export const OnlineUser = [
   {
     id: 1,
     onlinePic: "assets/person/5.person.jpeg",
-    onlineId: 6,
     username: "Laine Kim",
   },
   {
@@ -106,7 +105,7 @@ export const OnlineUser = [
     username: "Henry Cho",
   },
   {
-    
+
     onlinePic: "assets/person/8.person.jpeg",
     username: "Ben Banner",
   },
@@ -125,4 +124,39 @@ export const OnlineUser = [
     onlinePic: "assets/person/10.person.jpeg",
     username: "Kimberly Chase",
   },
+  
+]
+
+export const TopFriend = [
+  {
+    id: 1,
+    topPic: "assets/person/1.person.jpeg",
+    username: "Janelle Doe",
+  },
+  {
+    id: 2,
+    topPic:"assets/person/11.person.jpeg" ,
+    username: "Janet Blackson",
+  },
+  {
+
+    topPic: "assets/person/14.person.jpeg",
+    username: "Tim Cavier",
+  },
+  {
+    id: 9,
+    topPic: "assets/person/15.person.jpeg",
+    username: "Mike Wick",
+  },
+  {
+    id: 10,
+    topPic: "assets/person/12.person.jpeg",
+    username: "Linda Marvel",
+  },
+  {
+    id: 11,
+    topPic: "assets/person/16.person.jpeg",
+    username: "Jacob Patterson",
+  },
+  
 ]
