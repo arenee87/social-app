@@ -95,6 +95,33 @@ export const Posts = [
 
 // export const Online = [
 //   {
-
-//   }
-// ]
+//     id: 6,
+//     onlinePic: "assets/person/5.person.jpeg",
+//     onlineId: 6,
+//     username: "Laine Kim",
+//   },
+  // {
+  //   id: 7,
+  //   onlinePic: ,
+  //   username: ,
+  // },
+  // {
+  //   id: 8,
+  //   onlinePic: ,
+  //   username: ,
+  // },
+  // {
+  //   id: 9,
+  //   onlinePic: ,
+  //   username: ,
+  // },
+  // {
+  //   id: 10,
+  //   onlinePic: ,
+  //   username: ,
+  // },
+  // {
+  //   id: 11,
+  //   onlinePic: ,
+  //   username: ,
+  // },
