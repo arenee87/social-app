@@ -1,9 +1,17 @@
 import "./post.css"
 import { ExpandMore, ThumbUp, Favorite  } from "@mui/icons-material"
 import { Users } from "../../dynamicData"
+import { useState } from "react"
 
 export default function Post({post}) {
-    
+    const [like, setLike] = useState(post.like)
+    const [isLiked, setisLiked] = useState(false)
+
+    const likeHandler =() =>{
+        setLike(isLiked ? like-1 : like+1)
+        setisLiked(!isLiked)
+    }
+
   return (
     <div>
         <div className="post">
@@ -26,9 +34,9 @@ export default function Post({post}) {
                 </div>
                 <div className="postBottom">
                     <div className="postBottomLeft">
-                        <ThumbUp htmlColor="turquoise" className="likeIcon"/>
-                        <Favorite htmlColor="pink" className="likeIcon"/>
-                        <span className="postLikeCounter">{post.like} people like this!</span>
+                        <ThumbUp htmlColor="turquoise" className="likeIcon" onClick={likeHandler}/>
+                        <Favorite htmlColor="pink" className="likeIcon" onClick={likeHandler}/>
+                        <span className="postLikeCounter">{like} people like this!</span>
                     </div>
                     <div className="postBottomRight">
                         <div className="postCommentText">{post.comment} comments</div>

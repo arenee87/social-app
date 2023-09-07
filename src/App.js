@@ -1,8 +1,10 @@
-import Home from "./pages/Home";
+
+import Profile from "./profile/Profile";
 
 function App() {
   return(
-    <Home/>
+    <Profile/>
+    
   )
 }
 export default App;
