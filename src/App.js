@@ -1,9 +1,11 @@
+import Login from "./pages/login/Login";
+import Profile from "./pages/profile/Profile";
 
-import Profile from "./profile/Profile";
+
 
 function App() {
   return(
-    <Profile/>
+    <Login/>
     
   )
 }

@@ -1,8 +1,8 @@
 
-import Navbar from '../components/Navbar'
-import Feed from '../components/feed/Feed'
-import Rightbar from '../components/rightbar/Rightbar'
-import Sidebar from '../components/sidebar/Sidebar'
+import Navbar from '../../components/Navbar'
+import Feed from '../../components/feed/Feed'
+import Rightbar from '../../components/rightbar/Rightbar'
+import Sidebar from '../../components/sidebar/Sidebar'
 import './profile.css'
 
 export default function Profile() {
@@ -24,7 +24,7 @@ export default function Profile() {
                 </div>
                 <div className="profileRightBottom">
                   <Feed/>
-                  <Rightbar/>
+                  <Rightbar profile/>
                 </div>
                 
               </div>
